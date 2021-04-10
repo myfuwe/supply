@@ -1,0 +1,23 @@
+{
+    "name": "myufwe/supply",
+    "description": "supply",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "77286894",
+            "email": "77286894@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6",
+        "ext-curl": "*"
+    },
+    "autoload": {
+
+        "psr-4": {
+            "Qdysup\\": "src/qdysup"
+        }
+    }
+}
